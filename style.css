@@ -17,7 +17,31 @@ body
     height: 4%;
 }
 
-#start, #status{
+#start, #status, #restart{
     font-size: 23px;
     float: center;
 }
+
+li{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.modal-dialog{
+    width: 55%;
+}
+
+.copy_right_footer{
+    bottom: 0;
+    position: fixed;
+    margin: 0;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    background-color: rgb(0, 145, 255);
+    width: 100%;
+    line-height: 3;
+}
+
+
